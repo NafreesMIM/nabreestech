@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nabrees Tech Solutions | Custom Software Development</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabrees Tech Solutions | Contact &amp; Enquiries</title>
+
+  <!-- Styles & Fonts -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
+
 <body class="light-mode">
+  <!-- ========== HEADER ========== -->
   <header>
     <div class="container">
       <div class="logo">
-        <img src="images/logo.png" alt="Nabrees Tech Solutions">
+        <img src="images/logo.png" alt="Nabrees Tech Solutions Logo" />
       </div>
+
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -23,10 +31,13 @@
           <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
       </nav>
-      <div class="mode-toggle">🌙</div>
+
+      <!-- Dark / Light toggle -->
+      <div class="mode-toggle" aria-label="Toggle dark mode">🌙</div>
     </div>
   </header>
 
+  <!-- ========== HERO ========== -->
   <section class="contact-hero">
     <div class="container">
       <h1>Let's Build Something Great</h1>
@@ -34,19 +45,26 @@
     </div>
   </section>
 
+  <!-- ========== CONTACT FORM ========== -->
   <section class="contact-section">
     <div class="container">
+      <!-- Form -->
       <div class="contact-form">
         <h2>Send Us a Message</h2>
         <form id="contactForm">
+          <!-- Name -->
           <div class="form-group">
             <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required />
           </div>
+
+          <!-- Email -->
           <div class="form-group">
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" required />
           </div>
+
+          <!-- Service Select -->
           <div class="form-group">
             <label for="service">Service Interested In</label>
             <select id="service" name="service">
@@ -54,18 +72,27 @@
               <option value="static">Static Website</option>
               <option value="ecommerce">E-Commerce</option>
               <option value="webapp">Web Application</option>
+              <option value="mobileapp">Mobile Application</option>
+              <option value="saas">SaaS Platform</option>
               <option value="other">Other</option>
             </select>
           </div>
+
+          <!-- Message -->
           <div class="form-group">
             <label for="message">Project Details</label>
             <textarea id="message" name="message" rows="5" required></textarea>
           </div>
+
+          <!-- Submit -->
           <button type="submit" class="btn primary">Send Message</button>
         </form>
       </div>
+
+      <!-- Info -->
       <div class="contact-info">
         <h2>Contact Information</h2>
+
         <div class="info-item">
           <div class="info-icon">📧</div>
           <div class="info-content">
@@ -73,33 +100,39 @@
             <p>hello@nabreestech.com</p>
           </div>
         </div>
+
         <div class="info-item">
           <div class="info-icon">📞</div>
           <div class="info-content">
             <h3>Phone</h3>
-            <p>+91 98765 43210</p>
+            <p>+1&nbsp;(555)&nbsp;987-6543</p>
           </div>
         </div>
+
         <div class="info-item">
           <div class="info-icon">🕒</div>
           <div class="info-content">
             <h3>Working Hours</h3>
-            <p>Mon-Fri: 9AM - 6PM</p>
+            <p>Mon – Fri: 9 AM – 6 PM</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<footer>
+  <!-- ========== FOOTER ========== -->
+  <footer>
     <div class="container">
       <div class="footer-content">
+        <!-- About -->
         <div class="footer-about">
           <div class="logo">
-            <img src="images/logo.png" alt="Nabrees Tech Solutions Logo">
+            <img src="images/logo.png" alt="Nabrees Tech Solutions Logo" />
           </div>
           <p>Building digital excellence through custom software solutions.</p>
         </div>
+
+        <!-- Links -->
         <div class="footer-links">
           <h4>Quick Links</h4>
           <ul>
@@ -108,19 +141,23 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
+
+        <!-- Contact -->
         <div class="footer-contact">
           <h4>Get In Touch</h4>
           <ul>
             <li>📧 hello@nabreestech.com</li>
-            <li>📞 +91 98765 43210</li>
+            <li>📞 +1&nbsp;(555)&nbsp;987-6543</li>
           </ul>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <p>&copy; 2024 Nabrees Tech Solutions. All rights reserved.</p>
+        <p>&copy; 2025 Nabrees Tech Solutions. All rights reserved.</p>
       </div>
     </div>
   </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>

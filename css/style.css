@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.logo span {
+  color: #3498db;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #3498db;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.pricing-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3498db;
+}

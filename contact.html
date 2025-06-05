@@ -1,12 +1,77 @@
-<!-- (Add the same header/footer as index.html) -->
-<section class="contact">
-  <div class="container">
-    <h2>Get in Touch</h2>
-    <form id="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Email" required>
-      <textarea placeholder="Your Project Details" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Same head content as index.html -->
+</head>
+<body class="light-mode">
+  <header>
+    <!-- Same header as index.html -->
+  </header>
+
+  <section class="contact-hero">
+    <div class="container">
+      <h1>Let's Build Something Great</h1>
+      <p>Get in touch to discuss your project requirements.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="static">Static Website</option>
+              <option value="ecommerce">E-Commerce</option>
+              <option value="webapp">Web Application</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="info-item">
+          <div class="info-icon">📧</div>
+          <div class="info-content">
+            <h3>Email</h3>
+            <p>hello@nabreestech.com</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-content">
+            <h3>Phone</h3>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕒</div>
+          <div class="info-content">
+            <h3>Working Hours</h3>
+            <p>Mon-Fri: 9AM - 6PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Same footer as index.html -->
+</body>
+</html>

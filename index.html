@@ -5,53 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nabrees Tech Solutions | Custom Software Development</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
-<body>
-  <!-- Header -->
+<body class="light-mode">
   <header>
     <div class="container">
-      <h1 class="logo">Nabrees<span>Tech</span></h1>
+      <div class="logo">
+        <img src="images/logo.svg" alt="Nabrees Tech Solutions Logo">
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+      <div class="mode-toggle">🌙</div>
     </div>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h2>Building Digital Excellence</h2>
-      <p>Custom software solutions tailored to your business needs.</p>
-      <a href="services.html" class="btn">View Services</a>
+      <div class="hero-text">
+        <h1>Code. Create. <span class="highlight">Elevate.</span></h1>
+        <p>Tailored software solutions that drive your business forward.</p>
+        <div class="cta-buttons">
+          <a href="services.html" class="btn primary">Explore Services</a>
+          <a href="contact.html" class="btn secondary">Get a Quote</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero-illustration.svg" alt="Software Development Illustration">
+      </div>
     </div>
   </section>
 
-  <!-- Features -->
   <section class="features">
     <div class="container">
-      <div class="feature-box">
-        <h3>Static Websites</h3>
-        <p>Fast, SEO-optimized, and mobile-ready.</p>
-      </div>
-      <div class="feature-box">
-        <h3>E-Commerce</h3>
-        <p>Secure payment gateways and admin dashboards.</p>
-      </div>
-      <div class="feature-box">
-        <h3>Web Apps</h3>
-        <p>Scalable systems with user logins and APIs.</p>
+      <h2>Why Choose Nabrees Tech</h2>
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">💻</div>
+          <h3>Custom Solutions</h3>
+          <p>No templates - every project is built from scratch to your exact needs.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🛡️</div>
+          <h3>Secure & Scalable</h3>
+          <p>Enterprise-grade security with architecture designed to grow.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h3>Fast Delivery</h3>
+          <p>Efficient processes that deliver quality without unnecessary delays.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <p>"Nabrees delivered our e-commerce platform ahead of schedule. The attention to detail was exceptional."</p>
+          <div class="client-info">
+            <div class="client-name">Rajesh Mehta</div>
+            <div class="client-company">UrbanFashion</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <div class="container">
-      <p>&copy; 2024 Nabrees Tech Solutions. All rights reserved.</p>
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Nabrees Tech Solutions Logo">
+          </div>
+          <p>Building digital excellence through custom software solutions.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Get In Touch</h4>
+          <ul>
+            <li>📧 hello@nabreestech.com</li>
+            <li>📞 +91 98765 43210</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Nabrees Tech Solutions. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 

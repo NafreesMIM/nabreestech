@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nabrees Tech Solutions | Custom Software Development</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabrees Tech Solutions | Custom Software Engineering Services</title>
+
+  <!-- Styles & Fonts -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@300;400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
 </head>
+
 <body class="light-mode">
+  <!-- ========== HEADER ========== -->
   <header>
     <div class="container">
       <div class="logo">
-        <img src="images/logo.png" alt="Nabrees Tech Solutions">
+        <img src="images/logo.png" alt="Nabrees Tech Solutions Logo" />
       </div>
+
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -23,28 +31,34 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <div class="mode-toggle">🌙</div>
+
+      <!-- Dark / Light toggle -->
+      <div class="mode-toggle" aria-label="Toggle dark mode">🌙</div>
     </div>
   </header>
 
+  <!-- ========== HERO ========== -->
   <section class="services-hero">
     <div class="container">
       <h1>Our Services</h1>
-      <p>Custom solutions tailored to your business requirements.</p>
+      <p>Custom software solutions tailored to your business goals.</p>
     </div>
   </section>
 
+  <!-- ========== PACKAGES & PRICING ========== -->
   <section class="pricing">
     <div class="container">
-      <h2>Packages & Pricing</h2>
+      <h2>Packages &amp; Pricing</h2>
+
       <div class="pricing-grid">
+        <!-- Static Website -->
         <div class="pricing-card">
           <div class="pricing-header">
             <h3>Static Website</h3>
-            <div class="price">₹60,000</div>
+            <div class="price">$800</div>
           </div>
           <ul class="features-list">
-            <li>✓ Custom design</li>
+            <li>✓ Bespoke design</li>
             <li>✓ 5+ pages</li>
             <li>✓ Mobile responsive</li>
             <li>✓ Basic SEO</li>
@@ -52,15 +66,16 @@
           </ul>
           <a href="contact.html" class="btn primary">Get Started</a>
         </div>
-        
+
+        <!-- E-Commerce -->
         <div class="pricing-card popular">
-          <div class="popular-badge">Most Popular</div>
+          <div class="popular-badge">Most&nbsp;Popular</div>
           <div class="pricing-header">
             <h3>E-Commerce</h3>
-            <div class="price">₹75,000</div>
+            <div class="price">$1,000</div>
           </div>
           <ul class="features-list">
-            <li>✓ Payment gateway</li>
+            <li>✓ Secure payment gateway</li>
             <li>✓ Admin dashboard</li>
             <li>✓ Product management</li>
             <li>✓ Order tracking</li>
@@ -68,18 +83,51 @@
           </ul>
           <a href="contact.html" class="btn primary">Get Started</a>
         </div>
-        
+
+        <!-- Web Application -->
         <div class="pricing-card">
           <div class="pricing-header">
             <h3>Web Application</h3>
-            <div class="price">₹200,000+</div>
+            <div class="price">$2,500+</div>
           </div>
           <ul class="features-list">
             <li>✓ User authentication</li>
             <li>✓ Database integration</li>
-            <li>✓ API development</li>
+            <li>✓ REST / GraphQL APIs</li>
             <li>✓ Custom workflows</li>
             <li>✓ Scalable architecture</li>
+          </ul>
+          <a href="contact.html" class="btn primary">Get Started</a>
+        </div>
+
+        <!-- Mobile Application -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Mobile Application</h3>
+            <div class="price">$3,000+</div>
+          </div>
+          <ul class="features-list">
+            <li>✓ iOS &amp; Android (Flutter / React&nbsp;Native)</li>
+            <li>✓ Push notifications</li>
+            <li>✓ Offline capabilities</li>
+            <li>✓ App Store / Play Store deployment</li>
+            <li>✓ Analytics integration</li>
+          </ul>
+          <a href="contact.html" class="btn primary">Get Started</a>
+        </div>
+
+        <!-- SaaS Platform -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>SaaS Platform</h3>
+            <div class="price">$5,000+</div>
+          </div>
+          <ul class="features-list">
+            <li>✓ Subscription billing</li>
+            <li>✓ Multi-tenant architecture</li>
+            <li>✓ CI/CD pipeline</li>
+            <li>✓ Role-based access</li>
+            <li>✓ SLA-driven support</li>
           </ul>
           <a href="contact.html" class="btn primary">Get Started</a>
         </div>
@@ -87,38 +135,70 @@
     </div>
   </section>
 
+  <!-- ========== ADD-ON SERVICES ========== -->
   <section class="add-ons">
     <div class="container">
       <h2>Additional Services</h2>
+
       <div class="add-ons-grid">
+        <!-- SEO -->
         <div class="add-on-card">
           <h3>SEO Optimization</h3>
-          <p>Boost your search rankings with our comprehensive SEO package.</p>
-          <div class="add-on-price">+₹15,000</div>
+          <p>Boost your rankings with a data-driven SEO package.</p>
+          <div class="add-on-price">+$250</div>
         </div>
+
+        <!-- Multi-language -->
         <div class="add-on-card">
           <h3>Multi-language Support</h3>
           <p>Reach global audiences with localized content.</p>
-          <div class="add-on-price">+₹20,000</div>
+          <div class="add-on-price">+$300</div>
         </div>
+
+        <!-- Mobile Integration -->
         <div class="add-on-card">
           <h3>Mobile App Integration</h3>
-          <p>Extend your web platform to iOS and Android.</p>
-          <div class="add-on-price">+₹100,000</div>
+          <p>Extend your platform to iOS &amp; Android.</p>
+          <div class="add-on-price">+$1,200</div>
+        </div>
+
+        <!-- DevOps -->
+        <div class="add-on-card">
+          <h3>DevOps &amp; Cloud</h3>
+          <p>Automate deployments and scale on AWS, Azure, or GCP.</p>
+          <div class="add-on-price">+$800</div>
+        </div>
+
+        <!-- QA Testing -->
+        <div class="add-on-card">
+          <h3>QA &amp; Test Automation</h3>
+          <p>Ensure reliability with unit, integration, and end-to-end tests.</p>
+          <div class="add-on-price">+$500</div>
+        </div>
+
+        <!-- Maintenance -->
+        <div class="add-on-card">
+          <h3>Maintenance &amp; Support</h3>
+          <p>Ongoing updates, bug fixes, and 24/7 monitoring.</p>
+          <div class="add-on-price">Custom</div>
         </div>
       </div>
     </div>
   </section>
 
-<footer>
+  <!-- ========== FOOTER ========== -->
+  <footer>
     <div class="container">
       <div class="footer-content">
+        <!-- About -->
         <div class="footer-about">
           <div class="logo">
-            <img src="images/logo.png" alt="Nabrees Tech Solutions Logo">
+            <img src="images/logo.png" alt="Nabrees Tech Solutions Logo" />
           </div>
           <p>Building digital excellence through custom software solutions.</p>
         </div>
+
+        <!-- Links -->
         <div class="footer-links">
           <h4>Quick Links</h4>
           <ul>
@@ -127,19 +207,23 @@
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
+
+        <!-- Contact -->
         <div class="footer-contact">
           <h4>Get In Touch</h4>
           <ul>
             <li>📧 hello@nabreestech.com</li>
-            <li>📞 +91 98765 43210</li>
+            <li>📞 +1 (555) 987-6543</li>
           </ul>
         </div>
       </div>
+
       <div class="footer-bottom">
-        <p>&copy; 2024 Nabrees Tech Solutions. All rights reserved.</p>
+        <p>&copy; 2025 Nabrees Tech Solutions. All rights reserved.</p>
       </div>
     </div>
   </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
